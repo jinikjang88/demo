@@ -1,0 +1,12 @@
+### Post 생성
+POST http://127.0.0.1:8080/posts
+Content-Type: application/json
+
+{
+  "postId": "0",
+  "postTitle": "포스트 제목이다.",
+  "postContents": "포스트 내용이다."
+}
+
+### Post 생성
+GET http://127.0.0.1:8080/posts/2
